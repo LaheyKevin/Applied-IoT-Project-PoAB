@@ -1,0 +1,1 @@
+FluxRecord() table: 0, {'result': '_result', 'table': 0, '_start': datetime.datetime(2023, 9, 21, 2, 22, 41, 614723, tzinfo=tzutc()), '_stop': datetime.datetime(2023, 9, 21, 15, 42, 41, 614723, tzinfo=tzutc()), '_time': datetime.datetime(2023, 9, 21, 15, 4, 38, 346694, tzinfo=tzutc()), '_value': 4, '_field': 'field1', '_measurement': 'measurement1', 'tagname1': 'tagvalue1'}
