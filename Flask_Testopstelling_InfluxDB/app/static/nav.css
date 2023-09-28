@@ -1,0 +1,89 @@
+nav{
+    background-color: #333;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;    
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #111;
+} 
+
+.content{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.login div, .regristreer div{
+    margin-top: 20px;
+}
+
+.baken_selector{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.baken_data{
+    background-color: rgb(237, 232, 232);
+
+    width: 800px;
+}
+
+.baken_data table{
+    margin-top: 20px;
+    width: 800px;
+}
+
+.baken_data table, td{
+    border: 1px solid;
+}
+
+.baken_data td{
+    text-align: center;
+}
+
+
+.baken_data form{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.baken_data form input{
+margin-left: 20px;
+}
+
+.all_devices{    
+    background-color: rgb(237, 232, 232);
+    margin-top: 100px;
+}
+
+.all_forms{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}

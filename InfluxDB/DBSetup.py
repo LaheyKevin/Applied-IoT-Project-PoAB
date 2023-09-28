@@ -14,13 +14,13 @@ DBclient = influxdb_client.InfluxDBClient(url=url,token=token,org=org)
 
 
 write_api = DBclient.write_api(write_options=SYNCHRONOUS)
+read_api = DBclient.query_api()
 
 ##########INSERT
-# data = influxdb_client.Point("bakens").tag("id","euid-123").field("aan_uit",0).field("lamp1",0).field("lamp2",0).field("lamp3",0).field("lichtdetectie",0).field("autoset",0)
+# data = influxdb_client.Point("bakens").tag("id","euid-125").field("aan_uit",0).field("lamp1",0).field("lamp2",0).field("lamp3",0).field("lichtdetectie",10).field("autoset",0)
 # write_api.write(bucket=bucket,org=org,record=data)
 
 ##########READ
-# read_api = DBclient.query_api()
 # query =   'from(bucket:"TestOpstellingBaken")\
 # |> range(start: -30m)\
 # |> filter(fn: (r) => r._measurement == "bakens")'
@@ -43,5 +43,5 @@ write_api = DBclient.write_api(write_options=SYNCHRONOUS)
 
 ##########UPDATE
 #To update you need same Point and same tag to update the fields
-# data = influxdb_client.Point("bakens").tag("id","euid-1234").field("autoset",0).time(datetime.datetime(2023, 9, 22, 17, 59, 1, 909436))
+# data = influxdb_client.Point("bakens").tag("id","euid-124").field("lichtdetectie",1081)#.time(datetime.datetime(2023, 9, 22, 17, 59, 1, 909436))
 # write_api.write(bucket=bucket,org=org,record=data)

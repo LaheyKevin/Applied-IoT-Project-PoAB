@@ -1,0 +1,33 @@
+{% if device %}
+<div class="baken_data">
+    <h2>geselecteerde baken id: {{ device.device_id }}</h2>
+        <table>
+            <tr>
+                <td>aan/uit</td>
+                <td>lamp 1</td>
+                <td>lamp 2</td>
+                <td>lamp 3</td>
+                <td>lichtdetectie</td>
+                <td>autoset</td>
+            </tr>
+            <tr>
+                <td>{{device.aan_uit}}</td>
+                <td>{{device.lamp1}}</td>
+                <td>{{device.lamp2}}</td>
+                <td>{{device.lamp3}}</td>
+                <td>{{device.lichtdetectie}}</td>
+                <td>{{device.autoset}}</td>
+            </tr>
+        </table>
+
+        <form action="/light/{{device.device_id}}" method="post">
+              zet baken status:
+            <input type="submit" value="aan" name="submit">
+            <input type="submit" value="uit" name="submit">
+            <input type="submit" value="auto" name="submit">
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.4523796916932!2d4.408328883029787!3d51.24100286277499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6517ebfffff%3A0x892fdd73c5fea0df!2sHavenhuis%20Port%20of%20Antwerp-Bruges!5e0!3m2!1snl!2sbe!4v1685478178396!5m2!1snl!2sbe" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+</div>
+    {% endif %}
