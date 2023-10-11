@@ -1,0 +1,12 @@
+Id;Designator;Footprint;Quantity;Designation;aanwezig labo;link
+1;C4;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;1µF;ja;
+2;C3;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;0,1µF;ja;
+3;mosfet1;AQY211EHAZ;1;TLP222A;ja;
+6;U1;SOT-223-3_TabPin2;1;LM317_SOT-223;nee;https://be.farnell.com/texas-instruments/lm317dcy/regulator-1-5a-1-25-37v-adj-4sot223/dp/3122679?st=lm317
+9;R3;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;1;220ohm;ja;
+10;C1;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;1nF;ja;
+11;led1;TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal;1;led;ja;
+12;C2;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;0.01µF;ja;
+13;R4;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;1;1k ohm;ja;
+14;currentsensor1;SOIC-8_3.9x4.9mm_P1.27mm;1;ACS712xLCTR-20A;ja;
+15;J4;PinHeader_1x06_P2.54mm_Vertical;1;Conn_01x06_Pin;ja;
