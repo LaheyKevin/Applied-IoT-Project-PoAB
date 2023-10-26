@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "own-footprints")(type "KiCad")(uri "C:/Users/gerom/OneDrive/Documenten/Applied-IoT-Project-PoAB/aansturing lamp pcb/own-footprints.pretty")(options "")(descr ""))
+)
