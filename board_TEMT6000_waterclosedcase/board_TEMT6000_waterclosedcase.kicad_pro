@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
-          "height": 7.0,
-          "width": 7.0
+          "drill": 0.0,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "baseboard.kicad_pro",
+    "filename": "board_TEMT6000_waterclosedcase.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -467,7 +467,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -479,7 +479,7 @@
   },
   "sheets": [
     [
-      "100adab8-95f2-43d5-83f0-8eac35e5b3d6",
+      "408b3ae1-4baa-462b-8e0d-c4f9a3e0b4ec",
       ""
     ]
   ],

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "own-symobls")(type "KiCad")(uri "${KIPRJMOD}/own-symobls.kicad_sym")(options "")(descr ""))
+  (lib (name "own_symbols")(type "KiCad")(uri "${KIPRJMOD}/own_symbols.kicad_sym")(options "")(descr ""))
+)
