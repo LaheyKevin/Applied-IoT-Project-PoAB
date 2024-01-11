@@ -1306,8 +1306,8 @@
     (property "Datasheet" "~" (at 136.525 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dfde71d9-2b16-4173-b613-359cbd38ab6a))
-    (pin "2" (uuid 11b4a391-50d3-45cb-bdfb-9309a854a0bc))
+    (pin "1" (uuid 7e301570-dc93-4178-b3b5-38b0628e2cd6))
+    (pin "2" (uuid fe1287e7-34c6-4d6f-a06b-9304ae4516d3))
     (instances
       (project "testboard AL5801"
         (path "/22d3873b-424a-4842-bcc7-1f3288cc1bd6"
@@ -1506,7 +1506,7 @@
     (property "Datasheet" "" (at 136.525 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3479c669-e44e-4e9c-957e-a4bdfa109141))
+    (pin "1" (uuid 26044b27-558b-48a4-99de-ccf5ccb01b63))
     (instances
       (project "testboard AL5801"
         (path "/22d3873b-424a-4842-bcc7-1f3288cc1bd6"
@@ -1566,8 +1566,8 @@
     (property "Datasheet" "~" (at 144.145 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c00baf0-a386-4e22-a0c3-9a5749bc2c8c))
-    (pin "2" (uuid 63c8c9ce-6c7e-4cbf-b673-dd8ef3113408))
+    (pin "1" (uuid 38c06776-3733-4109-b6bf-74954e266424))
+    (pin "2" (uuid 3aa879da-7a1e-40b1-a899-9f1fc73e7911))
     (instances
       (project "stcs05"
         (path "/ee2c9ab2-da3b-4785-b37f-83a0ffb53302"

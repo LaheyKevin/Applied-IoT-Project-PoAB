@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:stcs05/POAB-gerber-stcs05/stcs05-F_Mask.gts
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.2*
 G04 #@! TF.CreationDate,2023-12-12T16:56:49+01:00*
 G04 #@! TF.ProjectId,stcs05,73746373-3035-42e6-9b69-6361645f7063,rev?*
@@ -7,6 +8,17 @@ G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
 G04 Created by KiCad (PCBNEW 7.0.2) date 2023-12-12 16:56:49*
+=======
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.2*%
+%TF.CreationDate,2023-11-09T14:12:44+01:00*%
+%TF.ProjectId,stcs05,73746373-3035-42e6-9b69-6361645f7063,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.2) date 2023-11-09 14:12:44*
+>>>>>>> Stashed changes:stcs05/gerberfiles stcs05/stcs05-F_Mask.gbr
 %MOMM*%
 %LPD*%
 G01*
@@ -80,6 +92,7 @@ X124679000Y-80178000D03*
 X124679000Y-81428000D03*
 X124679000Y-82678000D03*
 X124679000Y-83928000D03*
+<<<<<<< Updated upstream:stcs05/POAB-gerber-stcs05/stcs05-F_Mask.gts
 D19*
 X136525000Y-70150000D03*
 X136525000Y-76250000D03*
@@ -89,11 +102,36 @@ X129667000Y-77872500D03*
 X124375000Y-86487500D03*
 X124375000Y-88562500D03*
 D21*
+=======
+%TD*%
+D19*
+%TO.C,R1*%
+X136525000Y-70150000D03*
+X136525000Y-76250000D03*
+%TD*%
+D20*
+%TO.C,C2*%
+X129667000Y-75797500D03*
+X129667000Y-77872500D03*
+%TD*%
+%TO.C,C1*%
+X124587000Y-85576500D03*
+X124587000Y-87651500D03*
+%TD*%
+D21*
+%TO.C,JP2*%
+>>>>>>> Stashed changes:stcs05/gerberfiles stcs05/stcs05-F_Mask.gbr
 X141825000Y-86625000D03*
 X141825000Y-87925000D03*
 D10*
 X147400000Y-70600000D03*
+<<<<<<< Updated upstream:stcs05/POAB-gerber-stcs05/stcs05-F_Mask.gts
 D22*
+=======
+%TD*%
+D22*
+%TO.C,J1*%
+>>>>>>> Stashed changes:stcs05/gerberfiles stcs05/stcs05-F_Mask.gbr
 X118400000Y-71460000D03*
 D23*
 X118400000Y-74000000D03*
